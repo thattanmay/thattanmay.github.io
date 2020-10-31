@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tanmay Gupta</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                background-image: url("images/contact.jpg");
+                background-repeat: no-repeat;
+                background-size: 1920px 1080px;
+                zoom: 100%;
+            }
+            .heading{
+                text-align: center;
+                margin-top: 5%;
+                font-size: 100px;
+                color: rgb(255, 255, 255);
+                font-family: 'Lucida Sans';
+            }
+            form{ 
+                margin-top: 5%;
+                margin-left: 30%;
+            }
+            input, select{
+                margin: 1%;
+                padding: 2%;
+                background-color: white;
+                color: black;
+            }
+            ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: black;
+                opacity: 1; /* Firefox */
+
+            }
+
+            :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                color: black;
+            }
+
+            ::-ms-input-placeholder { /* Microsoft Edge */
+                color: black;
+            }
+            button{
+                margin-top: 3%;
+                margin-left: 45%;
+                font-size: 20px;
+                padding: 20px 50px;
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 class="heading">Get in touch</h1>
+        </div>
+        
+        <div>
+            <form>
+                <input type="text" id="fname" placeholder="First Name" style="width: 25%;">
+                <input type="text" id="lname" placeholder="Last Name" style="width: 25%;">
+                <br>
+                <input type="email" id="email" placeholder="Email address" style="width: 52%;">
+                <br>
+                <input type="number" id="number" placeholder="Mobile Number" style="width: 16%;">
+                <select id="gender" name="gender" style="width: 16%;">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <input type="date" id="dob" placeholder="Date of birth" style="width: 16%;">
+                <br>
+            </form>
+            <button class="button">Submit</button>
+        </div>
+        
+
+    </body>
+</html>
